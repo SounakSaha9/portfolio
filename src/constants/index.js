@@ -22,6 +22,7 @@ import {
     carrent,
     jobit,
     tripguide,
+    pokedex,
     threejs,
   } from "../assets";
   
@@ -200,7 +201,7 @@ import {
     {
       name: "Netflix Clone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A clone web application of an well known OTT platform named Netflix where u can see the movie names.",
       tags: [
         {
           name: "react",
@@ -221,7 +222,7 @@ import {
     {
       name: "Web Calculator",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to calculate all the basic operations such as addition, substraction etc.,",
       tags: [
         {
           name: "Html",
@@ -239,27 +240,27 @@ import {
       image: jobit,
       source_code_link: "https://github.com/SounakSaha9/Web-Calculator",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Pokedex",
+      description:
+      "This web application lists all the pokemon available and exhibits the infinity scroll feature and upon clicking will show all the relative information about the given pokemon",
+      tags: [
+        {
+          name: "ReactJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Axios",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PokeAPI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pokedex,
+      source_code_link: "https://poke-seven-chi.vercel.app/",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
