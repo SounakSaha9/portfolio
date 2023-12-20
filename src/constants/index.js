@@ -24,6 +24,7 @@ import {
     tripguide,
     pokedex,
     threejs,
+    PayYou
   } from "../assets";
   
   export const navLinks = [
@@ -261,6 +262,20 @@ import {
       image: pokedex,
       source_code_link: "https://poke-seven-chi.vercel.app/",
     },
+    {
+      name: "PayYou",
+      description:
+      "This is a banking application design which is modern and have nice touches and functionalities. It mainly the UI/UX which is the focus here.",
+      tags: [
+        {
+          name: "ReactJs",
+          color: "blue-text-gradient",
+        },
+        
+      ],
+      image: PayYou,
+      source_code_link: "https://pay-you-7exj-sounaksaha9.vercel.app/",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

@@ -29,7 +29,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import pokedex from "./pokedex.png"
+import pokedex from "./pokedex.png";
+import PayYou from "./PayYou.png"
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  pokedex
+  pokedex,
+  PayYou
 };
