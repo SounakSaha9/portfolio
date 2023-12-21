@@ -31,6 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import pokedex from "./pokedex.png";
 import PayYou from "./PayYou.png"
+import dotnet from "./tech/dotnet.svg"
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   jobit,
   tripguide,
   pokedex,
-  PayYou
+  PayYou,
+  dotnet
 };

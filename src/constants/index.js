@@ -24,7 +24,8 @@ import {
     tripguide,
     pokedex,
     threejs,
-    PayYou
+    PayYou,
+    dotnet
   } from "../assets";
   
   export const navLinks = [
@@ -62,21 +63,22 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
+    
     {
       name: "CSS 3",
       icon: css,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "Dart",
-      icon: typescript,
+      name: "DotNEt",
+      icon: dotnet,
     },
     {
       name: "React JS",
@@ -113,7 +115,7 @@ import {
     {
       name: "Flutter",
       icon: docker,
-    },
+    }
   ];
   
   const experiences = [
