@@ -32,6 +32,8 @@ import tripguide from "./tripguide.png";
 import pokedex from "./pokedex.png";
 import PayYou from "./PayYou.png"
 import dotnet from "./tech/dotnet.svg"
+import nihilent from "./company/nihilent.png"
+
 
 export {
   logo,
@@ -64,5 +66,6 @@ export {
   tripguide,
   pokedex,
   PayYou,
-  dotnet
+  dotnet,
+  nihilent
 };
